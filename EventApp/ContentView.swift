@@ -33,7 +33,7 @@ struct ContentView: View {
                 Spacer()
                 CustomTabBar(selectedTab: $selectedTab)
                     .padding(.horizontal)
-                    .padding(.bottom, 20)
+                    .padding(.bottom, -10)
             }
         }
     }
