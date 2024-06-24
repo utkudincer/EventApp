@@ -17,5 +17,5 @@ struct DiscoverView: View {
 }
 
 #Preview {
-    DiscoverView()
+    ContentView()
 }
