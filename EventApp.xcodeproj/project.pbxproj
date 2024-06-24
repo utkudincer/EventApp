@@ -14,6 +14,11 @@
 		A003BBC32C29678B00C64C5E /* EventAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBC22C29678B00C64C5E /* EventAppTests.swift */; };
 		A003BBCD2C29678B00C64C5E /* EventAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBCC2C29678B00C64C5E /* EventAppUITests.swift */; };
 		A003BBCF2C29678B00C64C5E /* EventAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBCE2C29678B00C64C5E /* EventAppUITestsLaunchTests.swift */; };
+		A003BBDC2C296B9D00C64C5E /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBDB2C296B9D00C64C5E /* DiscoverView.swift */; };
+		A003BBDE2C296BA700C64C5E /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBDD2C296BA700C64C5E /* EventView.swift */; };
+		A003BBE02C296BB600C64C5E /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBDF2C296BB600C64C5E /* NetworkView.swift */; };
+		A003BBE22C296BFA00C64C5E /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBE12C296BFA00C64C5E /* GamesView.swift */; };
+		A003BBE42C296BFF00C64C5E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBE32C296BFF00C64C5E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		A003BBC82C29678B00C64C5E /* EventAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A003BBCC2C29678B00C64C5E /* EventAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAppUITests.swift; sourceTree = "<group>"; };
 		A003BBCE2C29678B00C64C5E /* EventAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A003BBDB2C296B9D00C64C5E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		A003BBDD2C296BA700C64C5E /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		A003BBDF2C296BB600C64C5E /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		A003BBE12C296BFA00C64C5E /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		A003BBE32C296BFF00C64C5E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +104,13 @@
 		A003BBB02C29678A00C64C5E /* EventApp */ = {
 			isa = PBXGroup;
 			children = (
-				A003BBB12C29678A00C64C5E /* EventAppApp.swift */,
 				A003BBB32C29678A00C64C5E /* ContentView.swift */,
+				A003BBDB2C296B9D00C64C5E /* DiscoverView.swift */,
+				A003BBDD2C296BA700C64C5E /* EventView.swift */,
+				A003BBDF2C296BB600C64C5E /* NetworkView.swift */,
+				A003BBE12C296BFA00C64C5E /* GamesView.swift */,
+				A003BBE32C296BFF00C64C5E /* ProfileView.swift */,
+				A003BBB12C29678A00C64C5E /* EventAppApp.swift */,
 				A003BBB52C29678B00C64C5E /* Assets.xcassets */,
 				A003BBB72C29678B00C64C5E /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A003BBE22C296BFA00C64C5E /* GamesView.swift in Sources */,
 				A003BBB42C29678A00C64C5E /* ContentView.swift in Sources */,
 				A003BBB22C29678A00C64C5E /* EventAppApp.swift in Sources */,
+				A003BBDC2C296B9D00C64C5E /* DiscoverView.swift in Sources */,
+				A003BBE02C296BB600C64C5E /* NetworkView.swift in Sources */,
+				A003BBE42C296BFF00C64C5E /* ProfileView.swift in Sources */,
+				A003BBDE2C296BA700C64C5E /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
