@@ -9,7 +9,12 @@ import SwiftUI
 
 struct SwiftUIView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Keşfet")
+            .font(.largeTitle)
+            .bold()
+            .offset(x: -120 ,y:-320) // Adjust this value to position the title
+        
+            
     }
 }
 

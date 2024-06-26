@@ -40,11 +40,7 @@ struct DiscoverView: View {
                 }
                 .offset(CGSize(width: 3, height:-85))
                 // Custom title with offset
-                Text("Keşfet")
-                    .font(.largeTitle)
-                    .bold()
-                    .offset(x: -120 ,y:-320) // Adjust this value to position the title
-                    .zIndex(1)
+                
             }
             .navigationBarHidden(true) // Hide the default navigation bar title
         }
@@ -55,3 +51,4 @@ struct DiscoverView: View {
     ContentView()
 
 }
+

@@ -1,18 +1,50 @@
-//
-//  SearchBarView.swift
-//  EventApp
-//
-//  Created by Eray on 26.06.2024.
-//
-
 import SwiftUI
 
 struct SearchBarView: View {
+    @State private var isSearchBarVisible = false
+    @State private var searchText = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Spacer()
+                if isSearchBarVisible {
+                    HStack {
+                        TextField("Search...", text: $searchText)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .padding(.horizontal)
+
+                        Button(action: {
+                            withAnimation {
+                                isSearchBarVisible = false
+                                searchText = ""
+                            }
+                        }) {
+                            Text("Cancel")
+                                .padding(.trailing)
+                        }
+                    }
+                    .transition(.scale)
+                    .animation(.easeOut, value: isSearchBarVisible)
+                } else {
+                    Button(action: {
+                        withAnimation {
+                            isSearchBarVisible = true
+                        }
+                    }) {
+                        Image(systemName: "magnifyingglass")
+                            .padding()
+                    }
+                }
+            }
+            Spacer()
+        }
+        .padding()
     }
 }
 
-#Preview {
-    SearchBarView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        SearchBarView()
+    }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACB7FB32C2C473C008BF4BE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB7FB22C2C473C008BF4BE /* SwiftUIView.swift */; };
+		2ACB7FB52C2C4D9D008BF4BE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB7FB42C2C4D9D008BF4BE /* SearchBarView.swift */; };
 		A003BBB22C29678A00C64C5E /* EventAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBB12C29678A00C64C5E /* EventAppApp.swift */; };
 		A003BBB42C29678A00C64C5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBB32C29678A00C64C5E /* ContentView.swift */; };
 		A003BBB62C29678B00C64C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A003BBB52C29678B00C64C5E /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ACB7FB22C2C473C008BF4BE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		2ACB7FB42C2C4D9D008BF4BE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		A003BBAE2C29678A00C64C5E /* EventApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A003BBB12C29678A00C64C5E /* EventAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAppApp.swift; sourceTree = "<group>"; };
 		A003BBB32C29678A00C64C5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		A003BBB02C29678A00C64C5E /* EventApp */ = {
 			isa = PBXGroup;
 			children = (
+				2ACB7FB42C2C4D9D008BF4BE /* SearchBarView.swift */,
+				2ACB7FB22C2C473C008BF4BE /* SwiftUIView.swift */,
 				A003BBB32C29678A00C64C5E /* ContentView.swift */,
 				A003BBDB2C296B9D00C64C5E /* DiscoverView.swift */,
 				A003BBDD2C296BA700C64C5E /* EventView.swift */,
@@ -273,7 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A003BBE22C296BFA00C64C5E /* GamesView.swift in Sources */,
+				2ACB7FB52C2C4D9D008BF4BE /* SearchBarView.swift in Sources */,
 				A003BBB42C29678A00C64C5E /* ContentView.swift in Sources */,
+				2ACB7FB32C2C473C008BF4BE /* SwiftUIView.swift in Sources */,
 				A003BBB22C29678A00C64C5E /* EventAppApp.swift in Sources */,
 				A003BBDC2C296B9D00C64C5E /* DiscoverView.swift in Sources */,
 				A003BBE02C296BB600C64C5E /* NetworkView.swift in Sources */,

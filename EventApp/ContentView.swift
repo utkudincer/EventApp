@@ -70,7 +70,7 @@ struct TabBarItem: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30)
-                .foregroundColor(selectedTab == tab ? .blue : .black)
+                .foregroundColor(selectedTab == tab ? .orange : .black)
         }
     }
 }
