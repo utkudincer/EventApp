@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
-    @State private var showSearchBar = false
+struct QRSearchbar: View {
+        @State private var showSearchBar = false
         @State private var showNotifications = false
         @State private var showQRScanner = false
     var body: some View {
@@ -43,7 +43,7 @@ struct SwiftUIView: View {
                 }
             }
         }
-        .padding(.bottom, 8.0)
+        .padding(.top, 8.0)
         .shadow(radius: 5)
         
             
@@ -52,5 +52,5 @@ struct SwiftUIView: View {
 
 
 #Preview {
-    SwiftUIView()
+    QRSearchbar()
 }

@@ -4,6 +4,7 @@ let images = ["SliderImage1", "image2"]
 
 struct DiscoverView: View {
     @State private var titleOffset: CGFloat = -250 // Başlık konumunu ayarlamak için
+    
 
     var body: some View {
         NavigationView {
@@ -35,20 +36,68 @@ struct DiscoverView: View {
                             }
                             .padding(5)
                         }
+                        
                     }
                     .padding(3)
                 }
+                
                 .offset(CGSize(width: 3, height:-85))
-                // Custom title with offset
+                // Custom title with offset,
+                Text("Keşfet")
+                    .font(.largeTitle)
+                    .bold()
+                    .offset(x: -120 ,y:-320)
+                
                 
             }
             .navigationBarHidden(true) // Hide the default navigation bar title
         }
+        
     }
 }
 
-#Preview {
-    ContentView()
-
+struct QRSearchbar: View {
+        @State private var showSearchBar = false
+        @State private var showNotifications = false
+        @State private var showQRScanner = false
+    var body: some View {
+        NavigationView{
+            VStack{
+                HStack(spacing:20){
+                    Button(action: {
+                                            showSearchBar.toggle()
+                                        }) {
+                                            Image(systemName: "magnifyingglass")
+                                        }
+                                        .sheet(isPresented: $showSearchBar) {
+                                            SearchView()
+                                        }
+                                        
+                                        Button(action: {
+                                            showNotifications.toggle()
+                                        }) {
+                                            Image(systemName: "bell")
+                                        }
+                                        .sheet(isPresented: $showNotifications) {
+                                            NotificationsView()
+                                        }
+                                        Button(action: {
+                                                showQRScanner.toggle()
+                                            }) {
+                                                Image(systemName: "qrcode")
+                                            }
+                                            .sheet(isPresented: $showQRScanner) {
+                                                QRScannerView()
+                                            }
+                }
+            }
+        }
+        .padding(.top, 8.0)
+        .shadow(radius: 5)
+        
+            
+    }
 }
-
+#Preview {
+    DiscoverView()
+}
