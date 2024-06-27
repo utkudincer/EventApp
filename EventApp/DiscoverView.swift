@@ -3,10 +3,10 @@ import SwiftUI
 let images = ["SliderImage1", "image2"]
 
 struct DiscoverView: View {
-    @State private var titleOffset: CGFloat = -250 
+    @State private var titleOffset: CGFloat = -250
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ZStack {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 0) {
