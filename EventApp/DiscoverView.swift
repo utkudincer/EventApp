@@ -6,7 +6,7 @@ struct DiscoverView: View {
     @State private var titleOffset: CGFloat = -250
 
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ZStack {
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 0) {
@@ -38,12 +38,12 @@ struct DiscoverView: View {
                     }
                     .padding(3)
                 }
-                .offset(CGSize(width: 3, height: -85))
+                .offset(CGSize(width: 3, height: -100))
                 // Custom title with offset
                 Text("Keşfet")
                     .font(.largeTitle)
                     .bold()
-                    .offset(x: -120, y: -320)
+                    .offset(x: -120, y: -350)
             }
             .toolbar {
                 ToolbarItemGroup() {
