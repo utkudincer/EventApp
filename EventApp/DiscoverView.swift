@@ -39,7 +39,7 @@ struct DiscoverView: View {
         }
         .navigationTitle("Keşfet")
         .toolbar {
-            ToolbarItemGroup {
+            ToolbarItemGroup(placement: .topBarTrailing) {
                 QRSearchbar()
             }
         }
@@ -52,7 +52,7 @@ struct QRSearchbar: View {
     @State private var showQRScanner = false
 
     var body: some View {
-        HStack(spacing: 20) {
+        HStack(spacing: 10) {
             Button(action: {
                 showSearchBar.toggle()
             }) {

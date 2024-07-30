@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SplashScreen: View {
+struct SplashView: View {
     @State var index = 0
     let colors: [Color] = [.green, .pink, .purple]
     let titles: [String] = ["EXPERIENCE", "SHARE", "EVENT APP"]

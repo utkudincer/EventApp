@@ -22,6 +22,7 @@
 		A003BBE02C296BB600C64C5E /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBDF2C296BB600C64C5E /* NetworkView.swift */; };
 		A003BBE22C296BFA00C64C5E /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBE12C296BFA00C64C5E /* GamesView.swift */; };
 		A003BBE42C296BFF00C64C5E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003BBE32C296BFF00C64C5E /* ProfileView.swift */; };
+		A0F305CA2C5943CA007397F9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F305C92C5943CA007397F9 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A003BBDF2C296BB600C64C5E /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		A003BBE12C296BFA00C64C5E /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
 		A003BBE32C296BFF00C64C5E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A0F305C92C5943CA007397F9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		A003BBB02C29678A00C64C5E /* EventApp */ = {
 			isa = PBXGroup;
 			children = (
+				A0F305C92C5943CA007397F9 /* SplashView.swift */,
 				2ACB7FB62C2D5AD1008BF4BE /* SearchView.swift */,
 				2ACB7FB82C2D5AF1008BF4BE /* QRScannerView.swift */,
 				2ACB7FBA2C2D5B1B008BF4BE /* NotificationsView.swift */,
@@ -286,6 +289,7 @@
 				A003BBB42C29678A00C64C5E /* ContentView.swift in Sources */,
 				2ACB7FBB2C2D5B1B008BF4BE /* NotificationsView.swift in Sources */,
 				2ACB7FB92C2D5AF1008BF4BE /* QRScannerView.swift in Sources */,
+				A0F305CA2C5943CA007397F9 /* SplashView.swift in Sources */,
 				A003BBB22C29678A00C64C5E /* EventAppApp.swift in Sources */,
 				A003BBDC2C296B9D00C64C5E /* DiscoverView.swift in Sources */,
 				A003BBE02C296BB600C64C5E /* NetworkView.swift in Sources */,
