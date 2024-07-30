@@ -1,6 +1,6 @@
 import SwiftUI
 
-let images = ["SliderImage1", "SliderImage2"]
+let images = ["SliderImage1", "SliderImage3"]
 
 struct DiscoverView: View {
     var body: some View {
